@@ -1,0 +1,25 @@
+import React from "react"
+
+export const data = [
+    { name:'Karthick',
+    std:'10',
+    section:'A',
+    id:'101',
+},
+{ name:'Rajaa',
+std:'10',
+section:'A',
+id:'102',
+},{ name:'John',
+std:'10',
+section:'A',
+id:'103',
+},{ name:'Mani',
+std:'10',
+section:'A',
+id:'104',
+},{ name:'Nani',
+std:'10',
+section:'A',
+id:'105',
+}]

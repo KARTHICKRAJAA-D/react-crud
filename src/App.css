@@ -1,38 +1,85 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  background-color: grey;
+  color: white;
+  margin:0px;
+  padding: 10px;
+  display: flex;
+  flex-direction: start;
+  gap:0.5rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer{
+  background-color: grey;
+  color: white;
+  margin:0px;
+  padding: 10px;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ width:100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.children{
+  
+  height:100vh;
+  margin-top: 12px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+.students{
+  background-color: inherit;
+  border:none;
+  cursor:pointer
+}
+.students:hover{
+  color: aqua;
+}
+.teachers{
+  background-color: inherit;
+  border:none;
+  cursor:pointer
+}
+.teachers:hover{
+  color: aqua;
+}
+
+.stu{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.details{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.user{
+  background-color: inherit;
+  border:none;
+  cursor:pointer;
+  display: flex;
+  flex-direction: end;
 }
 
-.App-link {
-  color: #61dafb;
+.user:hover{
+  color: aqua;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+width: 200px;
+border: 1px solid black;
+border-radius: 10px;
+text-align: center;
+background-color: blueviolet;
+margin:12px;
+padding: 10px;
+
+}
+.adduser{
+  margin: 27px;
+  padding: 15px;
+  justify-content: center;
 }
